@@ -81,7 +81,8 @@
      groovy-mode
      prodigy
      cider
-     cider-tracing)))
+     ;;cider-tracing
+)))
 
 (condition-case nil
     (init--install-packages)
